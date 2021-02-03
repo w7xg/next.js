@@ -1,5 +1,16 @@
 import '../styles/global.css'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { GeistProvider, CssBaseline } from '@geist-ui/react'
+
+
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <GeistProvider>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </GeistProvider>
+  )
 }
+export default MyApp
+
