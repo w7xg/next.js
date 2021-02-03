@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'John Andrew'
-export const siteTitle = 'Maga 2024'
+export const siteTitle = 'Make America Great Again --2024'
 
 export default function Layout({ children, home }) {
   return (
