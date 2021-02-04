@@ -30,7 +30,7 @@ export default function () {
         <title>Happy New Year</title>
       </Head>
       <section className={utilStyles.headingMd}>
-	<Image src="https://cdn.jsdelivr.net/gh/next.js/public/x2021.jpg" width="400" />
+	<Image src="https://cdn.jsdelivr.net/gh/w7xg/next.js/public/x2021.jpg" width="400" />
 	<Spacer y={2}/>
 	<Text h4>
 	<Row>大家好！2021年的脚步越来越近，我在北京向大家致以新年的美好祝福！</Row>
