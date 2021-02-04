@@ -10,7 +10,6 @@ import { GeistProvider, CssBaseline } from '@geist-ui/react'
 
 import { Text, Button , Card ,Spacer ,Row ,Image} from '@geist-ui/react'
 
-import { Github , Twitter ,Mail } from '@geist-ui/react-icons'
 
 const App = () => {
   const [themeType, setThemeType] = useState('dark')
@@ -31,10 +30,8 @@ export default function () {
         <title>Happy New Year</title>
       </Head>
       <section className={utilStyles.headingMd}>
-	<Card>
-	<Image src="http://www.xinhuanet.com/politics/2020-12/31/1126934359_16094133564351n.jpg" width="400" />
+	<Image src="https://cdn.jsdelivr.net/gh/next.js/public/x2021.jpg" width="400" />
 	<Spacer y={2}/>
-	</Card>
 	<Text h4>
 	<Row>大家好！2021年的脚步越来越近，我在北京向大家致以新年的美好祝福！</Row>
 

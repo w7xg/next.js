@@ -10,8 +10,6 @@ import { GeistProvider, CssBaseline } from '@geist-ui/react'
 
 import { Text, Button , Card ,Spacer ,Row} from '@geist-ui/react'
 
-import { Github , Twitter ,Mail } from '@geist-ui/react-icons'
-
 const App = () => {
   const [themeType, setThemeType] = useState('dark')
   const switchThemes = () => {
