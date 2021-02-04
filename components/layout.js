@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2445545268,1214463665&fm=26&gp=0.jpg"
+              src="https://cdn.jsdelivr.net/gh/w7xg/next.js/public/avatar.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2445545268,1214463665&fm=26&gp=0.jpg"
+                  src="https://cdn.jsdelivr.net/gh/w7xg/next.js/public/avatar.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
