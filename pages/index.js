@@ -40,14 +40,9 @@ export default function Home() {
         <Text h4><center>Hi there! I am John Andrew. Nice to meet you.</center></Text>
 		<Text h4><center>You can send E-mail to my <Link href="mailto:xsxg123456@outlook.com">E-mail address</Link></center></Text>
 		<Text h4><center>You can also follow my <Link href="https://www.github.com/w7xg">Github</Link> or <Link href="https://www.twitter.com/w7xg233">Twitter</Link></center></Text>
+		<Text h4><center>Check out my <Link href="https://blog.w7xg.now.sh">Blog</Link>!</center></Text>
       </Card>
 	  <Spacer y={2}/>
-	  <Card shadow>
-	  <Text h3>Blog</Text>
-	  <Text h4><Row><Link href="posts/newyear">Welcome to the new year! 2021-01-01</Link></Row></Text>
-	  <Text h4><Row><Link href="posts/af447">Air France Flight 447 Accident 2021-02-03</Link></Row></Text>
-	 </Card>
-	 <Spacer y={2}/>
 	 <footer>
 	 <center>MIT License | Copyright © 2020-2021</center>
 	 </footer>
